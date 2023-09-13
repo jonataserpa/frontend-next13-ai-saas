@@ -2,39 +2,39 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-const testimonials = [
+const techs = [
   {
-    name: "Joel",
+    name: "FrontEnd",
     avatar: "J",
-    title: "Software Engineer",
-    description: "This is the best application I've ever used!",
+    title: "React.js",
+    description: "Especialista em react (Next.js), Redux, Formik, Zod",
   },
   {
-    name: "Antonio",
+    name: "BackEnd",
     avatar: "A",
-    title: "Designer",
-    description: "I use this daily for generating new photos!",
+    title: "Node.js",
+    description: "Foco em desenvolvimento rápido usando o framework Nest.js (Prisma, TypeORM)",
   },
   {
-    name: "Mark",
+    name: "DevOps",
     avatar: "M",
-    title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
+    title: "Kubernets",
+    description: "Orquestração de contêineres, Automatiza, Escala e Otimiza.",
   },
   {
-    name: "Mary",
+    name: "Inteligência artificial",
     avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    title: "AI UI",
+    description: "Geração de código, imagens, musicas e video usando Open AI e Replicate AI",
   },
 ];
 
 export const LandingContent = () => {
   return (
     <div className="px-10 pb-20">
-      <h2 className="text-center text-4xl text-white font-extrabold mb-10">Testimonials</h2>
+      <h2 className="text-center text-4xl text-white font-extrabold mb-10">Tecnologias</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {testimonials.map((item) => (
+        {techs.map((item) => (
           <Card key={item.description} className="bg-[#192339] border-none text-white">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
