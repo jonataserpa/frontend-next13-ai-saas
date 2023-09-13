@@ -4,3 +4,8 @@ package = "@netlify/plugin-nextjs"
 [build]
 command = "npm run build"
 publish = ".next"
+
+[[redirects]]
+from = "/*"
+to = "/"
+status = 200
