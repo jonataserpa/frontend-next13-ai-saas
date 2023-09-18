@@ -5,6 +5,8 @@ import { ClerkProvider } from '@clerk/nextjs'
 import { ToasterProvider } from '@/components/toaster-provider'
 import { ModalProvider } from '@/components/modal-provider'
 import { CrispProvider } from '@/components/crisp-provider'
+import { DefaultSeo } from 'next-seo'
+import SEO from '../next-seo.config'
 
 import './globals.css'
 
@@ -24,6 +26,7 @@ export default async function RootLayout({
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <CrispProvider />
+        <DefaultSeo {...SEO} />
         <body className={font.className}>
           <ToasterProvider />
           <ModalProvider />
