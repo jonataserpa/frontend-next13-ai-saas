@@ -13,7 +13,7 @@ import './globals.css'
 const font = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Genius',
+  title: 'Jonata Serpa || Desenvolvedor FullStack',
   description: 'AI Platform',
 }
 
