@@ -26,7 +26,7 @@ export const LandingHero = () => {
                 " - FullStack - ",
                 "FronEnd - (React, Angular, Vue)",
                 "BackEnd - (Nodejs, PHP, Java)",
-                "DevOps - (Kubernetes, Observabilidade)"
+                "DevOps - (Kubernetes, Nginx)"
               ],
               autoStart: true,
               loop: true,
@@ -45,7 +45,7 @@ export const LandingHero = () => {
         </Link>
       </div>
       <div className="text-zinc-400 text-xs md:text-sm font-normal">
-        Teste agora mesmo
+        
       </div>
     </div>
   );
