@@ -48,6 +48,12 @@ const portfolios = [
     title: "Store",
     url: "https://cdn.discordapp.com/attachments/1083115321935798314/1164625195747770379/ecommerce.png?ex=6543e4bc&is=65316fbc&hm=096ac45a00cf7e2b1173339db5f6115c8e4bb9c9f91360148f2ce6fbaa140c5f&",
     href: "",
+  },
+  {
+    name: "Messenger",
+    title: "Chat",
+    url: "https://cdn.discordapp.com/attachments/1083115321935798314/1164630311674581042/messenger.png?ex=6543e980&is=65317480&hm=11516da15920611857a0a9e6c464d1a471b6d100d6b91f9953ac4606d094452b&",
+    href: "",
   }
 ]
 
