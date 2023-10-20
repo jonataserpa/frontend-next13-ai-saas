@@ -17,7 +17,7 @@ const techs = [
     description: "Foco em desenvolvimento rápido usando o framework Nest.js (Prisma, TypeORM)",
   },
   {
-    name: "DevOps",
+    name: "DevOps - CI/CD",
     avatar: "M",
     title: "Kubernets and Nginx",
     description: "Orquestração de contêineres ou pm2: Automatiza, Escala e Otimiza.",
