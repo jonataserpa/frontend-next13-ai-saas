@@ -23,7 +23,7 @@ export const LandingNavbar = () => {
         </div>
         </div>
         <h1 className={cn("text-2xl p-4 font-bold text-white", font.className)}>
-          Dev
+          Developer
         </h1>
       </Link>
       <div className="flex items-center gap-x-2">

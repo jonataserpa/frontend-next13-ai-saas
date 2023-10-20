@@ -27,7 +27,6 @@ export default async function RootLayout({
       <html lang="en" suppressHydrationWarning>
         <CrispProvider />
         <body className={font.className}>
-          <link rel="icon" href="/favicon.ico" sizes="any" />
           <ToasterProvider />
           <ModalProvider />
           {children}

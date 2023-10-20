@@ -12,7 +12,7 @@ export const LandingHero = () => {
 
   return (
     <div className="text-white font-bold py-18 text-center space-y-5">
-      <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-5 font-extrabold">
+      <div className="text-3xl sm:text-5xl md:text-4xl lg:text-4xl space-y-5 font-extrabold">
         <NextSeo
           title="Jonata Serpa"
           description="Arquiteto de Software - Foco em desenvolvimento em soluções web"
