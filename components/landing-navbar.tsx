@@ -17,10 +17,12 @@ export const LandingNavbar = () => {
   return (
     <nav className="p-4 bg-transparent flex items-center justify-between">
       <Link href="/" className="flex items-center">
-        <div className="relative h-8 w-8 mr-4">
-          <Image fill alt="Logo" src="/logo.png" />
+      <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center cursor-pointer hover:opacity-80 transition">
+        <div className="relative h-8 w-6">
+          <Image fill alt="Logo" src="/jhow-logo.png" />
         </div>
-        <h1 className={cn("text-2xl font-bold text-white", font.className)}>
+        </div>
+        <h1 className={cn("text-2xl p-4 font-bold text-white", font.className)}>
           Dev
         </h1>
       </Link>
