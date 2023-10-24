@@ -1,7 +1,9 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Italic } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const techs = [
   {
@@ -19,7 +21,7 @@ const techs = [
   {
     name: "DevOps - CI/CD",
     avatar: "M",
-    title: "Kubernets and Nginx",
+    title: "Kubernets or Nginx / Jenkis or Actions",
     description: "Orquestração de contêineres ou pm2: Automatiza, Escala e Otimiza.",
   },
   {
@@ -110,6 +112,55 @@ export const LandingContent = () => {
               </CardHeader>
             </Card>
           ))}
+        </div>
+      </div>
+
+      <div className="px-10 pb-20">
+        <h2 className="text-center text-4xl text-white font-extrabold mb-10">API Back-End: </h2>
+        <div className="text-center text-2xl text-white font-light mb-4">
+          <Card className="bg-[#192339] border-none text-white">
+            <CardTitle className="flex items-center flex-col hover:flex-col gap-4">
+              <p className="p-8 gap-4 px-8">
+                Documentação Swagger: 
+              </p>
+                <Link href="https://api.appfacilalimentos.com.br/docs/" target="_blank">
+                  <p className="gap-4 px-8">
+                      Produção: <a className="text-blue-300"> <u>https://api.appfacilalimentos.com.br/docs/</u></a>
+                  </p>  
+                </Link>
+                <p className="gap-4 px-8 py-8">
+                <Link href="https://homol.appfacilalimentos.com.br/docs/#/" target="_blank">
+                  <p className="gap-4 px-8">
+                      Homologação: <a className="text-blue-300"><u>https://homol.appfacilalimentos.com.br/docs/</u></a>
+                  </p>  
+                </Link>
+                </p>
+            </CardTitle>
+          </Card>
+        </div>
+      </div>
+
+      <div className="px-10 pb-20">
+        <h2 className="text-center text-4xl text-white font-extrabold mb-10">Resume: </h2>
+        <div className="text-center text-2xl text-white font-sans mb-4">
+          <Card className="bg-[#192339] border-none text-white">
+            <CardTitle className="flex items-center flex-col hover:flex-col gap-4">
+              <p className="p-8 gap-4 px-8">
+                Sou um desenvolvedor Sênior de Software e recentemente cursando MBA de Arquitetura
+                de Software na FullCycle, com mais de 8 anos de experiência, e um conhecimento e habilidades
+                sólidos no desenvolvimento web e e-commerce e Telecom B2B, B2C e B2E. 
+              </p>
+              <p className="gap-4 px-8">
+                Minha expertise abrange tanto o Back-end quanto o Front-end e DevOps (Nginx e Kubernetes) dominando todo o ciclo de vida do produto/projeto, desde a concepção até a implantação e evolução contínua.
+                No Front-end, minha experiência em Performance, Usabilidade e Conversão é completa.
+                Nos últimos anos, dominando tecnologias como React.js e (Vuejs, Angular), mas o foco tem sido o React.js. Em Back-end, sou um expert em JavaScript/TypeScript (Node.js), PHP e Java, mas com foco em Node.js e estou constantemente enriquecendo minhas habilidades em outras opções,
+                como atualmente em Go, principalmente voltado para microserviços com foco em Go/Node.js, outros meios de comunicação como GRPC alem do Rest.
+              </p>  
+              <p className="gap-4 px-8 py-8">
+                Serviços da AWS(RDS, S3, EC2 entre outros) e assim como VPS da hostinger e Netlify tem sido um grande aprendizado para distinguir as diferenças de uso em cada situação, Habilidades adicionais como conhecimentos avançados em SEO, Observabilidade, Arquitetura baseada em microserviços e além de experiência em DevOps em alta escala tem me direcionado em novos rumos.
+              </p>
+            </CardTitle>
+          </Card>
         </div>
       </div>
     </>
