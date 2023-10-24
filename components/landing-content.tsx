@@ -10,7 +10,7 @@ const techs = [
     name: "FrontEnd",
     avatar: "J",
     title: "React.js",
-    description: "Especialista em react (Next.js), Redux, Formik, Zod",
+    description: "Especialista em react (Next.js), Redux, Formik, Zod, Yup",
   },
   {
     name: "BackEnd",
