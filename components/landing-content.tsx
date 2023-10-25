@@ -38,24 +38,243 @@ const portfolios = [
     title: "Netflix",
     url: "https://cdn.discordapp.com/attachments/1083115321935798314/1164581661464346664/login-netflix.png?ex=6543bc30&is=65314730&hm=42ed051ee54995f47734dc1faa50b3176d72137ade5a12304e492b5e1fe8f999&",
     href: "https://next13-netflix-tau.vercel.app/",
+    techs: [
+      { 
+        id: 1,
+        description: "Environment, Typescript, NextJS Setup",
+      },      
+      { 
+        id: 2,
+        description: "MongoDB & Prisma connect, Database creation",
+      },
+      { 
+        id: 3,
+        description: "Authentication with NextAuth, Google & Github Login",
+      },
+      { 
+        id: 4,
+        description: "Full responsiveness on all pages",
+      },
+      { 
+        id: 5,
+        description: "Cookie based authentication",
+      },      
+      { 
+        id: 6,
+        description: "API and Controllers creation",
+      },
+      { 
+        id: 7,
+        description: "Detail-oriented effects and animations using TailwindCSS",
+      },
+      { 
+        id: 8,
+        description: "React SWR data fetching",
+      },
+      { 
+        id: 9,
+        description: "Zustand state management",
+      }
+    ]
   },
   {
     name: "The way english school",
     title: "theway",
     url: "https://cdn.discordapp.com/attachments/1083115321935798314/1164584939715575889/Capturar_select-area_20231019122431.png?ex=6543bf3e&is=65314a3e&hm=7f68ed44a7afcb6c9c516e8bc42e8f01234c6dab8a9f0ebc3b980d08cf328d17&",
     href: "https://thewayschoolenglish.netlify.app/",
+    techs: [
+      { 
+        id: 1,
+        description: "Real-time message Socket.io",
+      },      
+      { 
+        id: 2,
+        description: "Attachments  UploadThing",
+      },{ 
+        id: 3,
+        description: "Delete & Edit messages",
+      },
+      { 
+        id: 4,
+        description: "Create Text, Audio and Video",
+      },
+      { 
+        id: 5,
+        description: "1:1 conversation members",
+      },      
+      { 
+        id: 6,
+        description: "1:1 video calls members",
+      },
+      { 
+        id: 7,
+        description: "Member management",
+      },
+      { 
+        id: 8,
+        description: "Invite link generation",
+      },
+      { 
+        id: 9,
+        description: "Infinite loading",
+      },
+      { 
+        id: 11,
+        description: "UI TailwindCSS and ShadcnUI",
+      },
+      { 
+        id: 12,
+        description: "Full responsivity",
+      },
+      { 
+        id: 13,
+        description: "Light / Dark mode",
+      },
+      { 
+        id: 14,
+        description: "Websocket fallback: alerts",
+      },
+      { 
+        id: 15,
+        description: "ORM using Prisma",
+      },
+      { 
+        id: 16,
+        description: "MySQL using Planetscale",
+      },
+      { 
+        id: 17,
+        description: "Authentication with Clerk",
+      }
+    ]
   },
   {
     name: "Ecommerce",
     title: "Store",
     url: "https://cdn.discordapp.com/attachments/1083115321935798314/1164625195747770379/ecommerce.png?ex=6543e4bc&is=65316fbc&hm=096ac45a00cf7e2b1173339db5f6115c8e4bb9c9f91360148f2ce6fbaa140c5f&",
     href: "",
+    techs: [
+      { 
+        id: 1,
+        description: "Environment, Typescript, NextJS Setup",
+      },      
+      { 
+        id: 2,
+        description: "Shadcn UI for the Admin",
+      },
+      { 
+        id: 3,
+        description: "CMS, Admin and API",
+      },
+      { 
+        id: 4,
+        description: "Full responsiveness",
+      },
+      { 
+        id: 5,
+        description: "Authentication with Clerk",
+      },      
+      { 
+        id: 6,
+        description: "Stripe checkout",
+      },
+      { 
+        id: 7,
+        description: "Stripe webhooks",
+      },
+      { 
+        id: 8,
+        description: "MySQL + Prisma + PlanetScale",
+      },
+      { 
+        id: 9,
+        description: "Zustand state management",
+      },
+      { 
+        id: 10,
+        description: "Order creation",
+      },
+      { 
+        id: 11,
+        description: "Categories creation",
+      },
+      { 
+        id: 12,
+        description: "Products creation",
+      },
+      { 
+        id: 13,
+        description: "Billboards creation",
+      },
+      { 
+        id: 14,
+        description: "Admin dashboard",
+      }
+    ]
   },
   {
     name: "Messenger",
     title: "Chat",
     url: "https://cdn.discordapp.com/attachments/1083115321935798314/1164630311674581042/messenger.png?ex=6543e980&is=65317480&hm=11516da15920611857a0a9e6c464d1a471b6d100d6b91f9953ac4606d094452b&",
     href: "",
+    techs: [
+      { 
+        id: 1,
+        description: "Environment, Typescript, NextJS Setup",
+      },      
+      { 
+        id: 2,
+        description: "Real-time messag using Pusher",
+      },
+      { 
+        id: 3,
+        description: "Message notifications",
+      },
+      { 
+        id: 4,
+        description: "Tailwind design for sleek UI",
+      },
+      { 
+        id: 5,
+        description: "Authentication with NextAuth",
+      },      
+      { 
+        id: 6,
+        description: "Google Auth integration",
+      },
+      { 
+        id: 7,
+        description: "File and image upload",
+      },
+      { 
+        id: 8,
+        description: "Validation react-hook-form",
+      },
+      { 
+        id: 9,
+        description: "Error with react-toast",
+      },
+      { 
+        id: 10,
+        description: "Online/offline user status",
+      },
+      { 
+        id: 11,
+        description: "Message attachments",
+      },
+      { 
+        id: 12,
+        description: "Online/offline user status",
+      },
+      { 
+        id: 13,
+        description: "User profile customization",
+      },
+      { 
+        id: 14,
+        description: "Managing chat/room/channel",
+      }
+    ]
   }
 ]
 
@@ -83,7 +302,7 @@ export const LandingContent = () => {
         </div>
       </div>
 
-      <div className="px-10 pb-20">
+      <div className="px-6 pb-20">
         <h2 className="text-center text-4xl text-white font-extrabold mb-10">Portfólios: </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {portfolios.map((item) => (
@@ -94,7 +313,7 @@ export const LandingContent = () => {
                     <p className="text-lg">{item.name}</p>
                   </div>
                 </CardTitle>
-                <a href={item.href} target="_blank">
+                <a href={item.href} target="_blank" className="pb-5">
                   <img src={item.url} alt="Imagem" 
                     className="
                     cursor-pointer
@@ -109,6 +328,16 @@ export const LandingContent = () => {
                     w-full
                   " />
                 </a>
+
+                <ul className="max-w-md space-y-1 text-white-500 list-disc list-inside dark:text-white-400">
+                  <>
+                    {item && item.techs?.map((tech) => {
+                      return <>
+                                <li>{tech.description}</li>
+                             </>
+                    })}
+                  </>
+                </ul>
               </CardHeader>
             </Card>
           ))}
@@ -163,6 +392,27 @@ export const LandingContent = () => {
           </Card>
         </div>
       </div>
+
+      { /*<div className="px-10 pb-20">
+        <h2 className="text-center text-4xl text-white font-extrabold mb-10">Livros que recomendo: </h2>
+        <div className="text-center text-2xl text-white font-sans mb-4">
+          <Card className="bg-[#192339] border-none text-white">
+            <CardTitle className="flex items-center flex-col hover:flex-col gap-4">
+              <p className="p-8 gap-4 px-8">
+                Espiritual: 
+                  - A biblia: principalmente o livro de romanos.
+                  - Sem barganhas com Deus. (Caio fabio)
+                  - Ego transformado. (Timothy Keller)
+                  - dEUSES FALSOS. (Timothy Keller)
+                Técnico: 
+              </p>
+               
+              <p className="gap-4 px-8 py-8">
+              </p>
+            </CardTitle>
+          </Card>
+        </div>
+          </div> */}
     </>
   )
 }
