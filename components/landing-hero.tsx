@@ -34,9 +34,12 @@ export const LandingHero = () => {
           />
         </section>
       </div>
-      <header className="text-sm md:text-xl font-light text-zinc-400">
+      <header className="text-sm md:text-xl font-light text-zinc-200">
         Arquiteto de Software - Foco em desenvolvimento em soluções web
       </header>
+      {/*<div className="text-sm md:text-xl font-light text-zinc-400">
+        Visitantes ### <strong className="text-zinc-200">00055</strong> ###
+          </div>*/}
       <div>
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
           <Button variant="premium" className="md:text-lg p-4 md:p-6 rounded-full font-semibold">

@@ -7,7 +7,7 @@ import { useAuth } from "@clerk/nextjs";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaStarOfDavid } from 'react-icons/fa';
 
 const font = Montserrat({ weight: '600', subsets: ['latin'] });
 
@@ -36,7 +36,7 @@ export const LandingNavbar = () => {
           <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center cursor-pointer hover:opacity-80 transition">
             <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
               <Button variant="outline" className="rounded-full">
-                Login
+                IA
               </Button>
             </Link>
           </div>
