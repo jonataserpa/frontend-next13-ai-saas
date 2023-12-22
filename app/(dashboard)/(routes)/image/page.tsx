@@ -61,7 +61,7 @@ const PhotoPage = () => {
   return ( 
     <div>
       <Heading
-        title="Image Generation"
+        title="Geraração de Image"
         description="Turn your prompt into an image."
         icon={ImageIcon}
         iconColor="text-pink-700"
@@ -160,7 +160,7 @@ const PhotoPage = () => {
               )}
             />
             <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
-              Generate
+              Generação
             </Button>
           </form>
         </Form>
@@ -170,7 +170,7 @@ const PhotoPage = () => {
           </div>
         )}
         {photos.length === 0 && !isLoading && (
-          <Empty label="No images generated." />
+          <Empty label="Images não generadas." />
         )}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-8">
           {photos.map((src) => (
@@ -178,7 +178,7 @@ const PhotoPage = () => {
               <div className="relative aspect-square">
                 <Image
                   fill
-                  alt="Generated"
+                  alt="Generação"
                   src={src}
                 />
               </div>

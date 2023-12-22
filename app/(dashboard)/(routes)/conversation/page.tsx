@@ -60,7 +60,7 @@ const ConversationPage = () => {
   return ( 
     <div>
       <Heading
-        title="Conversation"
+        title="Conversação"
         description="Our most advanced conversation model."
         icon={MessageSquare}
         iconColor="text-violet-500"
@@ -112,7 +112,7 @@ const ConversationPage = () => {
             </div>
           )}
           {messages.length === 0 && !isLoading && (
-            <Empty label="No conversation started." />
+            <Empty label="Conversation não iniciada." />
           )}
           <div className="flex flex-col-reverse gap-y-4">
             {messages.map((message) => (

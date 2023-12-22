@@ -10,7 +10,7 @@ const SettingsPage = async () => {
   return ( 
     <div>
       <Heading
-        title="Settings"
+        title="Configuração"
         description="Manage account settings."
         icon={Settings}
         iconColor="text-gray-700"

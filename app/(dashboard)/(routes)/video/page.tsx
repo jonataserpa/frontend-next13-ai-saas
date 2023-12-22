@@ -55,7 +55,7 @@ const VideoPage = () => {
   return ( 
     <div>
       <Heading
-        title="Video Generation"
+        title="Geração de Vídeo"
         description="Turn your prompt into video."
         icon={FileAudio}
         iconColor="text-orange-700"
@@ -104,7 +104,7 @@ const VideoPage = () => {
           </div>
         )}
         {!video && !isLoading && (
-          <Empty label="No video files generated." />
+          <Empty label="Vídeo não generado." />
         )}
         {video && (
           <video controls className="w-full aspect-video mt-8 rounded-lg border bg-black">
