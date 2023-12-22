@@ -112,7 +112,7 @@ const ConversationPage = () => {
             </div>
           )}
           {messages.length === 0 && !isLoading && (
-            <Empty label="Conversation não iniciada." />
+            <Empty label="Conversa não iniciada." />
           )}
           <div className="flex flex-col-reverse gap-y-4">
             {messages.map((message) => (

@@ -170,7 +170,7 @@ const PhotoPage = () => {
           </div>
         )}
         {photos.length === 0 && !isLoading && (
-          <Empty label="Images não generadas." />
+          <Empty label="Images não geradas." />
         )}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-8">
           {photos.map((src) => (
@@ -178,7 +178,7 @@ const PhotoPage = () => {
               <div className="relative aspect-square">
                 <Image
                   fill
-                  alt="Generação"
+                  alt="Gerar"
                   src={src}
                 />
               </div>
