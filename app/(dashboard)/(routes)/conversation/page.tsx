@@ -61,7 +61,7 @@ const ConversationPage = () => {
     <div>
       <Heading
         title="Conversação"
-        description="Our most advanced conversation model."
+        description="Nosso modelo de conversação mais avançado."
         icon={MessageSquare}
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"
@@ -100,7 +100,7 @@ const ConversationPage = () => {
                 )}
               />
               <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
-                Generate
+                Gerar
               </Button>
             </form>
           </Form>

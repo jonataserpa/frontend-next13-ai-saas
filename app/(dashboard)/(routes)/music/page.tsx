@@ -57,7 +57,7 @@ const MusicPage = () => {
     <div>
       <Heading
         title="Geração de Música"
-        description="Turn your prompt into music."
+        description="Transforme seu prompt em música."
         icon={Music}
         iconColor="text-emerald-500"
         bgColor="bg-emerald-500/10"
@@ -95,7 +95,7 @@ const MusicPage = () => {
               )}
             />
             <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
-              Generação
+              Gerar
             </Button>
           </form>
         </Form>

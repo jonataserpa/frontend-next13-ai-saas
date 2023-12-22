@@ -56,7 +56,7 @@ const VideoPage = () => {
     <div>
       <Heading
         title="Geração de Vídeo"
-        description="Turn your prompt into video."
+        description="Transforme seu prompt em vídeo."
         icon={FileAudio}
         iconColor="text-orange-700"
         bgColor="bg-orange-700/10"
@@ -94,7 +94,7 @@ const VideoPage = () => {
               )}
             />
             <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
-              Generate
+              Gerar
             </Button>
           </form>
         </Form>
