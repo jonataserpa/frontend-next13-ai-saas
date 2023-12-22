@@ -160,7 +160,7 @@ const PhotoPage = () => {
               )}
             />
             <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
-              Generação
+              Gerar
             </Button>
           </form>
         </Form>
