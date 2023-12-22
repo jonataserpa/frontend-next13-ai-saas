@@ -61,7 +61,7 @@ const PhotoPage = () => {
   return ( 
     <div>
       <Heading
-        title="Geraração de Image"
+        title="Geração de Imagem"
         description="Transforme seu prompt em uma imagem."
         icon={ImageIcon}
         iconColor="text-pink-700"
