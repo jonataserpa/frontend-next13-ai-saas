@@ -23,6 +23,18 @@ Features:
 - How to reuse layouts
 - Folder structure in Next 13 App Router
 
+## Examples
+
+![Conversation](https://cdn.discordapp.com/attachments/1083115321935798314/1189222082744156210/image.png?ex=659d605f&is=658aeb5f&hm=fb239cdefe9cbc7c50332b7a93c051fc8c4285c53713fae83441a57da4a5acff&)
+
+![Image](https://cdn.discordapp.com/attachments/1083115321935798314/1189227180878729226/image.png?ex=659d651e&is=658af01e&hm=052b43c358a750e89d7342d52de21f5b882f34990ca9321cff1e78a75e7e4a40&)
+
+![Code](https://cdn.discordapp.com/attachments/1083115321935798314/1189259890485645452/image.png?ex=659d8395&is=658b0e95&hm=c8f8389ff3a5a20ab2363c0360d509a65e248071f6bbda36319adde5f8f24bcb&)
+
+![Music](https://cdn.discordapp.com/attachments/1083115321935798314/1189260073978044476/image.png?ex=659d83c1&is=658b0ec1&hm=c7d44b1361f8b877e33e87c0c9fa8d20fff107f5a9d32afe9a79d88d9e9f78e0&)
+
+![Video](https://cdn.discordapp.com/attachments/1083115321935798314/1189260280224567387/image.png?ex=659d83f2&is=658b0ef2&hm=2cd22a4a3a3f0d94d7d93710bdcd3ac6836a3797260df7a937afb9639f2df66f&)
+
 ### Prerequisites
 
 **Node version 18.x.x**
