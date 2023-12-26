@@ -94,15 +94,3 @@ Running commands with npm `npm run [command]`
 ## AI
 
 ![AI](https://cdn.discordapp.com/attachments/1083115321935798314/1181284455458013254/Capturar_select-area_20231204141944.png?ex=65807fe1&is=656e0ae1&hm=2b0ca19baf2177db4dacb4356426cab165a9575fe4d7d70b9426e7089c73c9f4&)
-
-## Conversation
-
-![Conversation](https://cdn.discordapp.com/attachments/1083115321935798314/1181284531756617809/image.png?ex=65807ff3&is=656e0af3&hm=8e5adbe0ced2d5cd4d78550640386288bb283d26e12e6403cc88548be1b2bbdb&)
-
-## Image generation
-
-![Image_generation](https://cdn.discordapp.com/attachments/1083115321935798314/1181284874280239265/Capturar_select-area_20231204142321.png?ex=65808045&is=656e0b45&hm=3f14867fe31d1d4ff3c2b56b87c796ee3488263ab559cef204bdc87e2d75b8f2&)
-
-## Video generation
-
-![Video_generation](https://cdn.discordapp.com/attachments/1083115321935798314/1181284974498955264/image.png?ex=6580805d&is=656e0b5d&hm=f9c655f56842825e3bb7a5dd1fcf9c5fb5128134d939756000f74f70e3a986c3&)
