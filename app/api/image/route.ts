@@ -52,9 +52,9 @@ export async function POST(
       size: resolution,
     });
 
-    if (!isPro) {
+    /*if (!isPro) {
       await incrementApiLimit();
-    }
+    }*/
 
     return NextResponse.json(response.data.data);
   } catch (error) {
