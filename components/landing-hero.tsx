@@ -26,7 +26,7 @@ export const LandingHero = () => {
                 " - FullStack - ",
                 "FronEnd - (React, Angular, Vue)",
                 "BackEnd - (Nodejs, PHP, Java)",
-                "DevOps - (Kubernetes, Nginx)"
+                "DevOps - (Kubernetes, Nginx, CI/CD)"
               ],
               autoStart: true,
               loop: true,
