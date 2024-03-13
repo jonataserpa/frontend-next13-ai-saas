@@ -375,26 +375,26 @@ export const LandingContent = () => {
             <CardTitle className="flex items-center flex-col hover:flex-col gap-4">
               <p className="p-8 gap-4 px-8">Documentação Swagger:</p>
               <Link
-                href="https://api.appfacilalimentos.com.br/docs/"
+                href="https://nest.jonataserpa.net/docs/"
                 target="_blank"
               >
                 <p className="gap-4 px-8">
                   Produção:{" "}
                   <a className="text-blue-300">
                     {" "}
-                    <u>https://api.appfacilalimentos.com.br/docs/</u>
+                    <u>https://nest.jonataserpa.net/docs/</u>
                   </a>
                 </p>
               </Link>
               <p className="gap-4 px-8 py-8">
                 <Link
-                  href="https://homol.appfacilalimentos.com.br/docs/#/"
+                  href="https://nest.jonataserpa.net/docs/"
                   target="_blank"
                 >
                   <p className="gap-4 px-8">
                     Homologação:{" "}
                     <a className="text-blue-300">
-                      <u>https://homol.appfacilalimentos.com.br/docs/</u>
+                      <u>https://nest.jonataserpa.net/docs/</u>
                     </a>
                   </p>
                 </Link>
